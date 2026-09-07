@@ -1,6 +1,6 @@
 <?php echo "<h2>PHẦN 1: TRẮC NGHIỆM</h2>"; echo "1. C<br>"; echo "2. B<br>"; echo "3. A<br>"; echo "4. B<br>"; echo "5. B<br>"; ?> <hr>
 <?php
-echo"PHẦN 2: THỰC HÀNH";
+echo"PHẦN 2: THỰC HÀNH.<br>";
 echo"Bài 1: Viết một chương trình PHP để in ra số chẵn từ 1 đến 10.<br>";
 for ($i = 0; $i <=10; $i++) 
 {   
@@ -9,7 +9,7 @@ for ($i = 0; $i <=10; $i++)
 ?>
 <br>
 <?php 
-echo "Bài 2: Kiểm tra một số có phải số nguyên tố không";
+echo "Bài 2: Kiểm tra một số có phải số nguyên tố không.<br>";
 $a= 16;
 $isprime= true;
 if ($a <2)
@@ -29,16 +29,16 @@ else
     }
 if ($isprime)
     {
-        echo "$a là số nguyên tố";
+        echo "$a là số nguyên tố.<br>";
     }
     else
     {
-        echo "$a không phải là số nguyên tố";
+        echo "$a không phải là số nguyên tố.<br>";
     }
 ?>
 <br>
 <?php
-echo "Bài 3: Hình chữ nhật";
+echo "Bài 3: Hình chữ nhật.<br>";
 function HinhChuNhat($chieuRong, $chieuCao) 
 {
     for ($i = 1; $i <= $chieuCao; $i++) 
